@@ -59,11 +59,14 @@ li a{
 /* corpo pagina */
 
 
-.cover {
-  height: 300px;
+.spotlight {
+  height: 400px;
   background-color: #e1d67a;
   margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
 }
+
 
 
 
@@ -76,8 +79,10 @@ section{
 
 .header-main {
   height: 100px;
-  background-color: #abcfe7;
+  font-size: 1.5em;
+  padding-top: 10px;
 }
+
 
 .main-float{
   padding: 20px 0;
