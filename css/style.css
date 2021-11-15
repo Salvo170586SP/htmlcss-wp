@@ -1,4 +1,4 @@
-/* general */
+/* GENERALE */
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-/* utility */
+/* UTILITY */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -22,7 +22,7 @@ body{
   clear: both;
 }
 
-/* intestazione */
+/* INTESTAZIONE */
 header {
   margin-bottom: 20px;
 }
@@ -36,8 +36,7 @@ img{
   width: 100%;
 }
 
-/* barra di navigazione */
-
+/* BARRA DI NAVIGAZIONE */
 nav{
   padding: 20px 0;
 }
@@ -54,11 +53,8 @@ li a{
 }
 
 
-
-
-/* corpo pagina */
-
-
+/* CORPO DELLA PAGINA */
+/* AREA SPOTLIGHT */
 .spotlight {
   background-image: url('../img/banner.jpg');
   background-position: center;
@@ -90,13 +86,10 @@ li a{
 }
 
 
-/* corpo float */
-
+/* CORPO DEL FLOAT */
 section{
   margin-bottom: 20px;
 }
-
-
 
 
 .header-main {
@@ -119,12 +112,8 @@ font-size: 20px;
   float: left;
 }
 
-.box-article{
-  padding: 0 40px;
-}
-
 .box-img{
-  width: 220px;
+  width: 300px;
   height: 200px;
   background-size: cover;
   border-radius: 10px;
@@ -171,7 +160,7 @@ font-size: 20px;
 
 
 
-/* fine pagina */
+/* FINE PAGINA */
 footer {
   height: 50px;
   text-align: center;
