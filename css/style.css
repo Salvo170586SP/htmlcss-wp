@@ -73,7 +73,6 @@ li a{
 /* corpo float */
 
 section{
-  background-color: #0086ff;
   margin-bottom: 20px;
 }
 
@@ -83,6 +82,10 @@ section{
   padding-top: 10px;
 }
 
+span{
+font-weight: 300;
+font-size: 20px;
+}
 
 .main-float{
   padding: 20px 0;
@@ -105,6 +108,16 @@ section{
 
 /* fine pagina */
 footer {
-  height: 80px;
-  background-color: #8801fe;
+  height: 50px;
+  text-align: center;
+}
+
+address{
+  font-style: normal;
+}
+
+address::after{
+  content: '\2665';
+  color: red;
+  font-size: 1.5em;
 }
